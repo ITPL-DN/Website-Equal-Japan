@@ -6,7 +6,7 @@
     <title>EQUAL VIET NAM - 海外調達・輸入品</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="bg-white text-medium-gray font-meiryo min-w-[1024px] overflow-x-auto">
+<body class="bg-white text-medium-gray font-meiryo min-w-[1024px] overflow-x-hidden">
     
     <!-- Navbar Component -->
     <x-header />
@@ -17,39 +17,58 @@
     </div>
 
     <!-- Main Content Area -->
-    <main class="max-w-5xl mx-auto px-0 py-lg flex flex-row gap-8">
-        
+    <main class="max-w-5xl mx-auto px-0 py-lg flex flex-row gap-8 overflow-x-hidden">
+
         <!-- Left Content -->
-        <div class="w-full" style="max-width: 72%; flex: 0 0 72%;">
+        <div class="w-full" style="max-width: 72%; flex: 0 0 72%; overflow-x: hidden;">
             <!-- Breadcrumbs -->
             <div class="text-[12px] text-medium-gray mb-md">
                 トップページ / 海外調達・輸入品
             </div>
 
-            <!-- Main Heading -->
+            <!-- Main Heading - 3 Languages -->
             <h1 class="text-[26px] font-bold text-dark-gray mb-md border-b-[2px] border-primary-blue pb-[5px] flex items-center">
-                <span class="mr-2 text-primary-blue">|</span> 海外調達・輸入品（コストダウン）
+                <span class="mr-2 text-primary-blue">|</span> ベトナム直接調達・輸入品
             </h1>
 
-            <!-- Message Box -->
+            <!-- Main Catchphrase Section -->
             <div class="bg-[#f1f1f1] p-sm mb-lg">
-                <div class="bg-white p-lg flex flex-row items-center justify-between border-[2px] border-[#f1f1f1]">
-                    <div class="text-left w-full flex-1 pr-md">
-                        <p class="text-[14px] font-bold mb-md text-center">精密機械メーカーの調達部門、<br>購買部門のご担当者様へ</p>
-                        <h2 class="text-[24px] font-bold text-center bg-light-gray-background py-md">日本品質の海外調達を<br>提案いたします</h2>
+                <div class="bg-white p-lg border-[2px] border-[#f1f1f1]">
+                    <div class="mb-lg pb-lg border-b border-[#ddd]">
+                        <h2 class="text-[20px] font-bold text-primary-blue text-center mb-3">
+                            貴社のベトナム支店として。
+                        </h2>
+                        <p class="text-[13px] text-dark-gray text-center leading-[1.8] mb-3">
+                            <span class="font-bold text-primary-blue">日本資本のEQUAL VIETNAMが、</span>現地工場のプロセスを可視化し、<br>
+                            ダイレクトにお届けします。
+                        </p>
                     </div>
-                    <div class="mt-md  flex flex-col items-center flex-shrink-0 w-[140px]">
-                        <!-- Using placeholder for now, you can replace with actual image later -->
-                        <div class="w-[120px] h-[120px] bg-light-gray overflow-hidden mb-[5px]">
-                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=120&h=120&q=80" alt="担当者" class="w-full h-full object-cover" />
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇯🇵 日本語</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">
+                                日本基準の品質管理で、ベトナム現地価格を実現
+                            </p>
                         </div>
-                        <span class="text-[11px] font-bold">担当／木村</span>
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇬🇧 English</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">
+                                Japanese-standard quality at Vietnam's local prices
+                            </p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇻🇳 Tiếng Việt</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">
+                                Chất lượng chuẩn Nhật với giá địa phương Việt Nam
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <p class="text-[15px] font-bold text-dark-gray text-center mb-lg">
-                EQUAL VIET NAMなら、安心の国内検査、無料サンプル、しかもローコスト！
+                <span class="text-bright-blue">中間商社マージン ゼロ、品質リスク ゼロへ。</span><br>
+                EQUAL VIET NAMが実現する、理想のベトナム直接調達。
             </p>
 
             <div class="flex justify-center mb-md">
@@ -209,84 +228,77 @@
             </div>
 
                 <div class="grid grid-cols-2 gap-lg mb-lg">
-                    <!-- Point 1 -->
+                    <!-- Point 1: Japanese Quality Standards -->
                     <div class="flex flex-col">
                         <div class="flex items-center mb-sm">
                             <div class="bg-teal-dark text-white text-center w-[36px] h-[36px] flex flex-col justify-center items-center leading-none mr-3 flex-shrink-0">
                                 <span class="text-[9px] mb-[1px]">Point</span>
                                 <span class="text-[20px] font-bold">1</span>
                             </div>
-                            <h3 class="text-[16px] font-bold text-dark-gray">小ロット、短納期に対応！</h3>
+                            <h3 class="text-[16px] font-bold text-dark-gray">日本基準の品質管理</h3>
                         </div>
                         <div class="bg-gray-blue-bg p-md text-[13px] text-dark-gray flex-grow">
                             <div class="flex items-start mb-sm">
                                 <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
                                 <p class="leading-[1.6]">
-                                    <span class="text-primary-blue">従来はコンテナ、パレットでの輸入が</span>一般的でしたが、<span class="text-primary-blue">小ロットの製品も対応可能です。</span><br><span class="text-[11px]">※船便、航空便、EMS他</span>
+                                    <span class="text-primary-blue">親会社が日本企業だからこそ、</span>妥協のない検品体制を構築。<br>
+                                    <span class="text-[11px]">ベトナム現地にいながら、日本の工場と同じ感覚で品質指示が出せます。</span>
                                 </p>
                             </div>
                             <div class="flex items-start">
                                 <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                                <p class="leading-[1.6]"><span class="text-primary-blue">納期も3日間から対応可能です。</span><br>ご相談下さい。</p>
+                                <p class="leading-[1.6]"><span class="text-primary-blue">日本の「当たり前」をベトナムで実現。</span><br>品質基準のギャップを完全に埋めます。</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Point 2 -->
+                    <!-- Point 2: Transparent Direct Sourcing -->
                     <div class="flex flex-col">
                         <div class="flex items-center mb-sm">
                             <div class="bg-teal-dark text-white text-center w-[36px] h-[36px] flex flex-col justify-center items-center leading-none mr-3 flex-shrink-0">
                                 <span class="text-[9px] mb-[1px]">Point</span>
                                 <span class="text-[20px] font-bold">2</span>
                             </div>
-                            <h3 class="text-[16px] font-bold text-dark-gray">簡単・安心！</h3>
+                            <h3 class="text-[16px] font-bold text-dark-gray">完全透明な直接調達</h3>
                         </div>
                         <div class="bg-gray-blue-bg p-md text-[13px] text-dark-gray flex-grow">
                             <div class="flex items-start mb-sm">
                                 <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                                <p class="leading-[1.6]">慣れない輸入、海外取引は不安があります。品質、言葉、コミュニケーションなど色んな障壁があります。</p>
+                                <p class="leading-[1.6]"><span class="text-primary-blue">中間商社マージン ゼロ。</span>現地メーカーの見積書をそのまま開示し、不透明な手数料を排除します。</p>
                             </div>
                             <div class="flex items-start">
                                 <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                                <p class="leading-[1.6]">当社にお任せ頂ければ現地スタッフ、国内スタッフが製品化まで連携して、<span class="text-bright-blue border-b border-bright-blue">丁寧に対応</span>させて頂きます。</p>
+                                <p class="leading-[1.6]">原価計算、納期管理、品質プロセスを<span class="text-bright-blue border-b border-bright-blue">完全に可視化</span>します。</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Point 3 -->
+                <!-- Point 3: Japanese-Language Support & Trust -->
                 <div class="mb-xl">
                     <div class="flex items-center mb-sm">
                         <div class="bg-teal-dark text-white text-center w-[36px] h-[36px] flex flex-col justify-center items-center leading-none mr-3">
                             <span class="text-[9px] mb-[1px]">Point</span>
                             <span class="text-[20px] font-bold">3</span>
                         </div>
-                        <h3 class="text-[16px] font-bold text-dark-gray">高品質！</h3>
+                        <h3 class="text-[16px] font-bold text-dark-gray">日本流の運営・信頼の構築</h3>
                     </div>
                     <div class="bg-gray-blue-bg p-md text-[13px] text-dark-gray">
                         <div class="flex items-start mb-2">
                             <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6]">製造元は日本大手メーカーと長年の取引実績のある工場のみです。</p>
+                            <p class="leading-[1.6]">商習慣の違いや細かなニュアンスのズレを、日本法人のバックアップにより解消。</p>
                         </div>
                         <div class="flex items-start mb-2">
                             <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6]">検品は基本的に全数量チェックいたします。</p>
+                            <p class="leading-[1.6]">報告・連絡・相談の徹底と、納期遵守への強い意識。<span class="text-primary-blue">日本企業同士のようなスムーズなコミュニケーション</span>を実現します。</p>
                         </div>
                         <div class="flex items-start mb-2">
                             <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6]">量産前には必ずサンプルを作成して品質をチェック致します。<br>試作代は<span class="text-primary-blue">基本無料</span>です。</p>
-                        </div>
-                        <div class="flex items-start mb-2">
-                            <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6]">もちろん、検査書、材料証明書も提出可能です。</p>
-                        </div>
-                        <div class="flex items-start mb-2">
-                            <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6] text-primary-blue">コストのお悩みを全面解決するお手伝いをいたします。</p>
+                            <p class="leading-[1.6]">日本語での全ての相談が完結します。言葉の壁は、私たちが負担します。</p>
                         </div>
                         <div class="flex items-start">
                             <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
-                            <p class="leading-[1.6] text-primary-blue">安価、高品質で価格競争力のある輸入品をお届け致します。</p>
+                            <p class="leading-[1.6] text-primary-blue">ベトナム直送の価格を、日本流のマネジメントで。</p>
                         </div>
                     </div>
                 </div>

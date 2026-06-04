@@ -1,11 +1,11 @@
 <header class="w-full shadow-sm font-meiryo">
     <!-- Top Corporate Teal Section -->
     <div class="bg-primary-blue text-white">
-        <!-- Very top text (Small Text) -->
-        <div class="max-w-[1000px] mx-auto px-md pt-sm pb-xs text-[12px] font-medium leading-[19.2px] text-center  flex justify-center ">
-            切削加工・プレス加工・NC旋盤加工・板金加工等の金属加工、試作から量産まで！ 大阪・東大阪の町工場ネットワークから全国発送いたします！
+        <!-- Very top text (Small Text) - 3 Languages -->
+        <div class="max-w-[1000px] mx-auto px-md pt-sm pb-xs text-[12px] font-medium leading-[19.2px] text-center flex justify-center">
+            {{ __('messages.header_message') }}
         </div>
-        
+
         <!-- Middle Logo and Phone -->
         <div class="max-w-[1000px] mx-auto px-md pb-lg flex flex-row justify-between items-center">
             <!-- Logo -->
@@ -17,21 +17,29 @@
                 </div>
                 <div class="flex flex-col ml-sm">
                     <span class="text-[26px] font-bold italic tracking-widest leading-none mt-1">EQUAL VIET NAM</span>
-                    <span class="text-[11px] font-bold tracking-widest text-light-gray-background mt-[2px]">日本企業向け 精密機械加工パートナー</span>
+                    <span class="text-[11px] font-bold tracking-widest text-light-gray-background mt-[2px]">{{ __('messages.header_tagline') }}</span>
                 </div>
             </div>
-            
-            <!-- Phone -->
-           <div class="text-center mt-lg  flex flex-col items-center">
-                <div class="flex items-center text-[32px] font-bold tracking-wider mb-[2px] leading-none">
-                    <!-- Phone Icon -->
-                    <svg class="w-[24px] h-[24px] mr-sm" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-                    </svg>
-                    +81 052-414-7675
+
+            <!-- Phone & Language Dropdown -->
+            <div class="flex items-center gap-6">
+                <!-- Phone -->
+                <div class="text-center flex flex-col items-center text-right">
+                    <div class="flex items-center text-[28px] font-bold tracking-wider mb-[2px] leading-none">
+                        <!-- Phone Icon -->
+                        <svg class="w-[22px] h-[22px] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                        </svg>
+                        +81 052-414-7675
+                    </div>
+                    <div class="text-[11px] font-medium leading-tight">営業時間 : 9:00～18:00 (土日祝除く)</div>
+                    <div class="text-[11px] font-medium leading-tight">EQUAL VIET NAM Co., Ltd.</div>
                 </div>
-                <div class="text-[12px] font-medium leading-[19.2px]">営業時間 : 9:00～18:00 (土日祝除く)</div>
-                <div class="text-[12px] font-medium leading-[19.2px]">EQUAL VIET NAM Co., Ltd.</div>
+
+                <!-- Language Dropdown -->
+                <div class="border-l border-white/30 pl-6">
+                    <x-language-switcher />
+                </div>
             </div>
         </div>
     </div>

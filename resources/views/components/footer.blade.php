@@ -50,17 +50,40 @@
 
             <!-- Right Column -->
             <div class="w-1/3 flex flex-col items-center">
-                <!-- Using placeholder for the big powered by logo, adjust as needed when real image is available -->
-                <img src="https://via.placeholder.com/260x80/30333b/ffffff?text=金属加工.net+powered+by+Sakai+Kinzoku" alt="金属加工.net powered by Sakai Kinzoku" class="mb-4 w-full h-auto">
+
+                <!-- Logo -->
+                <img
+                    src="https://www.sakaikinzoku.com/wp-content/themes/sakai/assets/images/logo.svg"
+                    alt="EQUAL VIET NAM Logo"
+                    class="mb-4 w-full h-auto">
+
+                <!-- Certifications -->
                 <div class="flex gap-2 justify-center mb-4 bg-white p-2 rounded w-full">
-                    <img src="https://via.placeholder.com/80x80/ffffff/ff0000?text=G-CERT2" alt="G-CERT2" class="h-[60px] w-auto">
-                    <img src="https://via.placeholder.com/80x80/ffffff/ff0000?text=Red+Seal" alt="Certification" class="h-[60px] w-auto">
-                    <img src="https://via.placeholder.com/80x80/ffffff/ffcc00?text=Yellow+Seal" alt="Certification" class="h-[60px] w-auto">
+
+                    <!-- ISO 9001 -->
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/5/59/ISO_9001-2015.svg"
+                        alt="ISO 9001"
+                        class="h-[60px] w-auto">
+
+                    <!-- ISO Certification -->
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/ISO_logo.svg/512px-ISO_logo.svg.png"
+                        alt="ISO"
+                        class="h-[60px] w-auto">
+
+                    <!-- Quality Badge -->
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/TUV_Rheinland_Logo.svg/512px-TUV_Rheinland_Logo.svg.png"
+                        alt="TUV Rheinland"
+                        class="h-[60px] w-auto">
                 </div>
+
                 <div class="text-[11px] text-center leading-relaxed">
                     <p>EQUAL VIET NAM Co., Ltd. の品質マネジメントシステムは、</p>
-                    <p>ISO9001:2015の認証を受けています。</p>
+                    <p>ISO 9001:2015 の認証を受けています。</p>
                 </div>
+
             </div>
         </div>
 
