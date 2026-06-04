@@ -5,7 +5,7 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "vercel-build": "vite build"
+        "vercel-build": "echo 'No build needed'"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.0.0",
