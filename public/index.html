@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024">
+    <title>EQUAL VIET NAM - 海外調達・輸入品</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary-blue': '#0b6678',
+                        'bright-blue': '#0072bd',
+                        'deep-blue': '#004f83',
+                        'light-blue': '#45b1c7',
+                        'dark-gray': '#333333',
+                        'medium-gray': '#393939',
+                        'light-gray': '#a9a9a9',
+                        'cta-green': '#5da531',
+                        'cta-light-green': '#87d554',
+                        'cta-hover-light': '#92e25d',
+                        'cta-hover-dark': '#68b837',
+                        'warning-inner-bg': '#fff8e1',
+                        'warning-text': '#e68a00',
+                        'teal-button': '#3eb6ca',
+                        'teal-text': '#218da6',
+                        'teal-dark': '#2a7b8e',
+                        'gray-blue-bg': '#e9ecec',
+                        'gray-box': '#f1f1f1',
+                        'arrow-gray': '#444444',
+                        'light-gray-background': '#f1f5f4',
+                    },
+                    spacing: {
+                        'xs': '5px',
+                        'sm': '10px',
+                        'md': '15px',
+                        'lg': '20px',
+                        'xl': '30px',
+                        '2xl': '40px',
+                    },
+                    fontFamily: {
+                        'meiryo': ['"Meiryo"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-medium-gray font-meiryo min-w-[1024px] overflow-x-hidden">
+
+    <!-- Header Component -->
+    <header class="w-full shadow-sm font-meiryo">
+        <!-- Top Corporate Teal Section -->
+        <div class="bg-primary-blue text-white">
+            <div class="max-w-[1000px] mx-auto px-md pt-sm pb-xs text-[12px] font-medium leading-[19.2px] text-center flex justify-center">
+                ベトナムの優秀な製造パートナーと日本企業をつなぐ、信頼の調達窓口
+            </div>
+            <div class="max-w-[1000px] mx-auto px-md pb-lg flex flex-row justify-between items-center">
+                <div class="flex items-center space-x-sm">
+                    <div class="flex items-center">
+                        <div class="w-0 h-0 border-t-[20px] border-t-transparent border-l-[35px] border-l-bright-blue border-b-[20px] border-b-transparent"></div>
+                        <div class="w-0 h-0 border-t-[20px] border-t-transparent border-l-[35px] border-l-light-blue border-b-[20px] border-b-transparent -ml-4"></div>
+                    </div>
+                    <div class="flex flex-col ml-sm">
+                        <span class="text-[26px] font-bold italic tracking-widest leading-none mt-1">EQUAL VIET NAM</span>
+                        <span class="text-[11px] font-bold tracking-widest text-light-gray-background mt-[2px]">日本企業向け 精密機械加工パートナー</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="text-center flex flex-col items-center text-right">
+                        <div class="flex items-center text-[28px] font-bold tracking-wider mb-[2px] leading-none">
+                            <svg class="w-[22px] h-[22px] mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            +81 052-414-7675
+                        </div>
+                        <div class="text-[11px] font-medium leading-tight">営業時間 : 9:00～18:00 (土日祝除く)</div>
+                        <div class="text-[11px] font-medium leading-tight">EQUAL VIET NAM Co., Ltd.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white border-b border-light-gray">
+            <div class="max-w-5xl mx-auto px-0">
+                <ul class="flex flex-row justify-center text-[13px] font-bold leading-[20px] w-full text-dark-gray">
+                    <li class="flex-1 border-l border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">トップページ</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">機械加工・切削加工</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">アルミ加工</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">海外調達・輸入品</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">加工事例</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">会社案内</a></li>
+                    <li class="flex-1 border-r border-[#e5e7eb]"><a href="#" class="block w-full h-full py-sm px-2 text-center border-b-[4px] border-transparent hover:text-bright-blue hover:border-bright-blue hover:bg-light-gray-background transition whitespace-nowrap">価格表</a></li>
+                    <li class="flex-1 bg-light-blue border-r border-light-blue"><a href="#" class="block w-full h-full py-sm px-2 text-center text-white border-b-[4px] border-transparent hover:bg-bright-blue transition whitespace-nowrap">お問い合わせ・見積依頼</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <div class="max-w-5xl mx-auto">
+        <img src="assets/banner.png" class="w-full h-auto" alt="海外調達でコストダウン！" />
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="max-w-5xl mx-auto px-0 py-lg flex flex-row gap-8 overflow-x-hidden">
+
+        <!-- Left Content -->
+        <div class="w-full" style="max-width: 72%; flex: 0 0 72%; overflow-x: hidden;">
+            <div class="text-[12px] text-medium-gray mb-md">
+                トップページ / 海外調達・輸入品
+            </div>
+
+            <h1 class="text-[26px] font-bold text-dark-gray mb-md border-b-[2px] border-primary-blue pb-[5px] flex items-center">
+                <span class="mr-2 text-primary-blue">|</span> ベトナム直接調達・輸入品
+            </h1>
+
+            <div class="bg-[#f1f1f1] p-sm mb-lg">
+                <div class="bg-white p-lg border-[2px] border-[#f1f1f1]">
+                    <div class="mb-lg pb-lg border-b border-[#ddd]">
+                        <h2 class="text-[20px] font-bold text-primary-blue text-center mb-3">
+                            貴社のベトナム支店として。
+                        </h2>
+                        <p class="text-[13px] text-dark-gray text-center leading-[1.8] mb-3">
+                            <span class="font-bold text-primary-blue">日本資本のEQUAL VIETNAMが、</span>現地工場のプロセスを可視化し、<br>
+                            ダイレクトにお届けします。
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇯🇵 日本語</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">日本基準の品質管理で、ベトナム現地価格を実現</p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇬🇧 English</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">Japanese-standard quality at Vietnam's local prices</p>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-[12px] font-bold text-dark-gray mb-2">🇻🇳 Tiếng Việt</h3>
+                            <p class="text-[11px] text-dark-gray leading-[1.6]">Chất lượng chuẩn Nhật với giá địa phương Việt Nam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-[15px] font-bold text-dark-gray text-center mb-lg">
+                <span class="text-bright-blue">中間商社マージン ゼロ、品質リスク ゼロへ。</span><br>
+                EQUAL VIET NAMが実現する、理想のベトナム直接調達。
+            </p>
+
+            <div class="flex justify-center mb-md">
+                <svg class="w-10 h-10 text-arrow-gray" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M4.2 7.8l7.8 7.8 7.8-7.8 2.4 2.4-10.2 10.2-10.2-10.2z"/>
+                </svg>
+            </div>
+
+            <div class="relative text-center mb-xl flex items-center justify-center">
+                <div class="absolute inset-0 flex items-center">
+                    <div class="w-full border-t border-[#999999]"></div>
+                </div>
+                <h2 class="relative z-10 inline-block bg-white px-[40px] py-[25px] text-[26px] font-bold text-dark-gray leading-[1.4]">
+                    金属加工の<br>海外調達・輸入代行<br>コストダウンの提案
+                </h2>
+            </div>
+
+            <div class="bg-gray-blue-bg text-bright-blue font-bold text-center py-[12px] text-[15px]">
+                価格競争激化のため、コストダウンはメーカーにとって非常に重要な業務です
+            </div>
+
+            <div class="mt-lg">
+                <div class="relative w-full aspect-video bg-black flex items-center justify-center mb-sm cursor-pointer group">
+                    <img src="https://images.unsplash.com/photo-1565439399-5f252dfcb17b?auto=format&fit=crop&w=800&q=80" alt="Video thumbnail" class="w-full h-full object-cover opacity-80 group-hover:opacity-90 transition" />
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <svg class="w-16 h-16 text-red-600 drop-shadow-md" viewBox="0 0 68 48"><path class="fill-current" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path fill="#fff" d="M 45,24 27,14 27,34"></path></svg>
+                    </div>
+                </div>
+                <div class="flex flex-row gap-sm">
+                    <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=400&q=80" alt="Factory process 1" class="w-full h-auto object-cover" />
+                    <img src="https://images.unsplash.com/photo-1581092335397-9583eb92d232?auto=format&fit=crop&w=400&q=80" alt="Factory process 2" class="w-full h-auto object-cover" />
+                </div>
+            </div>
+
+            <div class="mt-lg text-[13px] leading-[1.8] text-dark-gray">
+                <p class="mb-md">今まで安かろう、悪かろうと言われていた中国製部品が当社の指導と品質管理の下で大きく改善（2024年度の不良率0.05%）。さらに、納期も大幅短縮（日本のメーカー並）できるようになりました。</p>
+                <p class="mb-md"><a href="#" class="text-bright-blue font-bold hover:underline">高精度な海外調達で<span class="text-[15px] text-[#ff6600]">30%のコストカット</span>を実現しましょう。</a></p>
+                <p>コスト、品質共に満足して頂けます。<br>単独で海外調査、中国調査を行なう前に、是非お問い合わせ下さい。</p>
+            </div>
+
+            <div class="mt-xl border-[2px] border-cta-green p-[10px]">
+                <div class="text-center font-bold text-cta-green mb-2 text-[14px]">
+                    まずは、お気軽にご相談ください。お電話でのお問い合わせも承っております。
+                </div>
+                <a href="#" class="block bg-gradient-to-b from-cta-light-green to-cta-green text-white text-center py-md rounded-full text-[24px] font-bold shadow-md hover:from-cta-hover-light hover:to-cta-hover-dark transition flex items-center justify-center">
+                    <span class="bg-white text-cta-green rounded-full w-[28px] h-[28px] flex items-center justify-center text-[18px] mr-sm font-black pt-[2px]">▶</span> お問い合わせ・見積依頼はこちら
+                </a>
+                <div class="flex flex-row justify-center mt-3 gap-sm">
+                    <span class="border border-cta-green text-cta-green font-bold text-[12px] px-3 py-1 rounded-full bg-white text-center">小ロット・短納期・特急品もご相談ください</span>
+                    <span class="border border-cta-green text-cta-green font-bold text-[12px] px-3 py-1 rounded-full bg-white text-center">ZOOM等によるオンラインミーティング対応可能</span>
+                </div>
+            </div>
+
+            <div class="mt-xl bg-gray-box p-sm">
+                <div class="bg-white p-lg border border-[#e5e7eb] shadow-sm">
+                    <h3 class="text-center text-[15px] text-dark-gray mb-1">《お伝えしておきたいこと》</h3>
+                    <p class="text-center text-[15px] text-dark-gray mb-lg leading-[1.8]">
+                        製品クオリティは上がってきておりますが、<br>超高精度、超高難度の製品は日本製に及ばない場合がございます。
+                    </p>
+                    <div class="flex flex-row gap-lg items-center">
+                        <div class="flex-1 text-[14px] text-dark-gray w-full pl-lg">
+                            <p class="mb-sm">たとえば、</p>
+                            <ul class="list-disc pl-lg space-y-xs">
+                                <li>公差0.01未満での加工（超精密部品）</li>
+                                <li>鏡面加工（職人技レベル）など</li>
+                            </ul>
+                        </div>
+                        <div class="flex-1 bg-warning-inner-bg p-md text-[14px] text-warning-text w-full">
+                            <p class="mb-xs">精度要求が0.01以上の製品に関しては、2、<br>3次加工も含めて満足できる製品を提供いた<br>します。</p>
+                            <p>※必ず日本で検品を行ないます。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-lg bg-gray-box p-sm mb-2xl">
+                <div class="bg-white p-lg border border-[#e5e7eb] shadow-sm">
+                    <div class="text-[13px] font-bold text-dark-gray mb-md">このページのコンテンツ：</div>
+                    <div class="grid grid-cols-2 gap-x-lg gap-y-md text-[14px]">
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">EQUAL VIET NAMの海外調達をお勧めする理由</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">製品のお届けまでの流れ</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">担当者のミッション(思い)</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">輸入製品の紹介と作業風景</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">海外調達事例</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">海外調達のQ＆A</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">コストダウン 4つのコツ</span>
+                        </a>
+                        <a href="#" class="flex items-center text-teal-text hover:opacity-80 transition group">
+                            <span class="bg-teal-button text-white w-[22px] h-[22px] flex items-center justify-center mr-3 flex-shrink-0">
+                                <svg class="w-3 h-3 text-white stroke-[4px]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+                            </span>
+                            <span class="border-b border-teal-button pb-[1px] leading-none">EQUAL VIET NAMの金属加工、海外調達の特徴</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reasons Section -->
+            <div class="mt-2xl">
+                <div class="flex justify-center mb-md">
+                    <svg class="w-10 h-10 text-arrow-gray" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M4.2 7.8l7.8 7.8 7.8-7.8 2.4 2.4-10.2 10.2-10.2-10.2z"/>
+                    </svg>
+                </div>
+                <div class="relative text-center mb-xl flex items-center justify-center">
+                    <div class="absolute inset-0 flex items-center">
+                        <div class="w-full border-t border-[#999999]"></div>
+                    </div>
+                    <h2 class="relative z-10 inline-block bg-white px-[40px] py-[25px] text-[26px] font-bold text-dark-gray leading-[1.4]">
+                        EQUAL VIET NAMの海外調達を<br>お勧めする理由
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-2 gap-lg mb-lg">
+                    <div class="flex flex-col">
+                        <div class="flex items-center mb-sm">
+                            <div class="bg-teal-dark text-white text-center w-[36px] h-[36px] flex flex-col justify-center items-center leading-none mr-3 flex-shrink-0">
+                                <span class="text-[9px] mb-[1px]">Point</span>
+                                <span class="text-[20px] font-bold">1</span>
+                            </div>
+                            <h3 class="text-[16px] font-bold text-dark-gray">日本基準の品質管理</h3>
+                        </div>
+                        <div class="bg-gray-blue-bg p-md text-[13px] text-dark-gray flex-grow">
+                            <div class="flex items-start mb-sm">
+                                <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
+                                <p class="leading-[1.6]"><span class="text-primary-blue">親会社が日本企業だからこそ、</span>妥協のない検品体制を構築。</p>
+                            </div>
+                            <div class="flex items-start">
+                                <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
+                                <p class="leading-[1.6]"><span class="text-primary-blue">日本の「当たり前」をベトナムで実現。</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="flex items-center mb-sm">
+                            <div class="bg-teal-dark text-white text-center w-[36px] h-[36px] flex flex-col justify-center items-center leading-none mr-3 flex-shrink-0">
+                                <span class="text-[9px] mb-[1px]">Point</span>
+                                <span class="text-[20px] font-bold">2</span>
+                            </div>
+                            <h3 class="text-[16px] font-bold text-dark-gray">完全透明な直接調達</h3>
+                        </div>
+                        <div class="bg-gray-blue-bg p-md text-[13px] text-dark-gray flex-grow">
+                            <div class="flex items-start mb-sm">
+                                <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
+                                <p class="leading-[1.6]"><span class="text-primary-blue">中間商社マージン ゼロ。</span>現地メーカーの見積書をそのまま開示。</p>
+                            </div>
+                            <div class="flex items-start">
+                                <svg class="w-[18px] h-[18px] text-primary-blue mr-2 mt-[2px] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><rect x="4" y="6" width="12" height="12" stroke-width="1.5" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l3 3L22 4" /></svg>
+                                <p class="leading-[1.6]">原価計算、納期管理、品質プロセスを<span class="text-bright-blue border-b border-bright-blue">完全に可視化</span>します。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 gap-[2px] mb-lg">
+                    <div class="relative group overflow-hidden">
+                        <img src="https://picsum.photos/400/300?random=1" alt="超硬 ワイヤー加工 研削加工" class="w-full h-auto" />
+                        <div class="absolute bottom-0 w-full bg-[#1b2b50]/90 text-white text-center text-[11px] font-bold py-2">超硬 ワイヤー加工 研削加工</div>
+                    </div>
+                    <div class="relative group overflow-hidden">
+                        <img src="https://picsum.photos/400/300?random=2" alt="アルミマシニング加工" class="w-full h-auto" />
+                        <div class="absolute bottom-0 w-full bg-[#131a33]/90 text-white text-center text-[11px] font-bold py-2">アルミマシニング加工</div>
+                    </div>
+                    <div class="relative group overflow-hidden">
+                        <img src="https://picsum.photos/400/300?random=3" alt="ステンレス絞り加工" class="w-full h-auto" />
+                        <div class="absolute bottom-0 w-full bg-[#2e3e48]/90 text-white text-center text-[11px] font-bold py-2">ステンレス絞り加工</div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-box p-sm mb-2xl">
+                    <div class="bg-white p-lg border border-[#e5e7eb] shadow-sm">
+                        <div class="text-[12px] font-bold text-dark-gray mb-1">調達可能製品分野：</div>
+                        <p class="text-[14px] text-dark-gray leading-[1.8]">
+                            切削加工、冷間圧造、プレス加工、板金加工、樹脂成型、ダイカスト、ロストワックス、ネジ製品、LED製品、ガラス製品、その他
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Green CTA -->
+                <div class="mt-xl border-[2px] border-cta-green p-[10px] bg-white mb-xl">
+                    <div class="text-center font-bold text-cta-green mb-2 text-[14px]">
+                        まずは、お気軽にご相談ください。お電話でのお問い合わせも承っております。
+                    </div>
+                    <a href="#" class="block bg-gradient-to-b from-cta-light-green to-cta-green text-white text-center py-md rounded-full text-[24px] font-bold shadow-md hover:from-cta-hover-light hover:to-cta-hover-dark transition flex items-center justify-center">
+                        <span class="bg-white text-cta-green rounded-full w-[28px] h-[28px] flex items-center justify-center text-[18px] mr-sm font-black pt-[2px]">▶</span> お問い合わせ・見積依頼はこちら
+                    </a>
+                </div>
+
+                <!-- Breadcrumbs -->
+                <div class="text-[12px] text-dark-gray mt-6 mb-4">
+                    <a href="#" class="hover:underline">トップページ</a> <span>/</span> <span>海外調達・輸入品</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <aside class="w-full flex flex-col" style="max-width: 25%; flex: 0 0 25%;">
+            <img src="https://picsum.photos/250/120?random=5" alt="良品率" class="w-full h-auto mb-md border border-light-gray">
+            <ul class="flex flex-col text-[13px] font-bold text-dark-gray">
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>トップページ</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white constantly flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>お問い合わせ・見積依頼</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>価格表ダウンロード</a></li>
+                <li class="bg-light-blue text-white mb-[2px]"><a href="#" class="block px-md py-[10px] flex items-center"><span class="bg-white text-light-blue text-[9px] px-[4px] py-[1px] mr-2">▶</span>海外調達・輸入品</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>切削加工・機械加工</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>プレス加工・板金加工</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>加工事例</a></li>
+                <li class="bg-[#f1f5f4] mb-[2px]"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>会社案内</a></li>
+                <li class="bg-[#f1f5f4] mb-md"><a href="#" class="block px-md py-[10px] hover:bg-white transition flex items-center border border-[#e5e7eb]"><span class="bg-dark-gray text-white text-[9px] px-[4px] py-[1px] mr-2">▶</span>採用情報</a></li>
+            </ul>
+            <div class="flex flex-col space-y-md mt-sm">
+                <a href="#" class="block relative group overflow-hidden border border-light-gray hover:border-bright-blue transition">
+                    <img src="https://picsum.photos/250/150?random=1" alt="お問い合わせ・見積もり依頼" class="w-full h-auto" />
+                    <div class="absolute bottom-0 w-full bg-black/70 text-white text-center text-[11px] font-bold py-[3px]">お問い合わせ・見積もり依頼</div>
+                </a>
+                <a href="#" class="block relative group overflow-hidden border border-light-gray hover:border-bright-blue transition">
+                    <img src="https://picsum.photos/250/150?random=2" alt="会社案内" class="w-full h-auto" />
+                    <div class="absolute bottom-0 w-full bg-black/70 text-white text-center text-[11px] font-bold py-[3px]">会社案内</div>
+                </a>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Full Width Footer Banner -->
+    <div class="w-full bg-[#e3e6e8] py-8">
+        <div class="max-w-[1000px] mx-auto flex justify-center gap-6">
+            <a href="#" class="relative block w-[230px] hover:opacity-90 transition">
+                <img src="https://picsum.photos/230/150?random=90" alt="お問い合わせ・見積依頼" class="w-full h-[150px] object-cover">
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center text-[12px] font-bold py-2">お問い合わせ・見積依頼</div>
+            </a>
+            <a href="#" class="relative block w-[230px] hover:opacity-90 transition">
+                <img src="https://picsum.photos/230/150?random=91" alt="加工事例の紹介" class="w-full h-[150px] object-cover">
+                <div class="absolute bottom-0 left-0 w-full bg-[#0a1e3f]/80 text-white text-center text-[12px] font-bold py-2">加工事例の紹介</div>
+            </a>
+            <a href="#" class="relative block w-[230px] hover:opacity-90 transition">
+                <img src="https://picsum.photos/230/150?random=92" alt="金属加工コラム" class="w-full h-[150px] object-cover">
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center text-[12px] font-bold py-2">金属加工コラム</div>
+            </a>
+            <a href="#" class="relative block w-[230px] hover:opacity-90 transition">
+                <img src="https://picsum.photos/230/150?random=93" alt="採用情報" class="w-full h-[150px] object-cover">
+                <div class="absolute bottom-0 left-0 w-full bg-black/60 text-white text-center text-[12px] font-bold py-2">採用情報</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#30333b] text-[#cccccc] font-sans text-[12px] pt-12 border-t-[4px] border-[#5cb1c6]">
+        <div class="max-w-[1000px] mx-auto pb-6">
+            <div class="flex justify-between items-start mb-8 pb-8 border-b border-[#4b4e55]">
+                <div class="w-1/3 pr-4">
+                    <h2 class="text-white text-[22px] font-bold mb-1 tracking-widest leading-tight">EQUAL VIET NAM</h2>
+                    <p class="text-[11px] text-[#5cb1c6] mb-4">日本企業向け 精密機械加工パートナー</p>
+                    <div class="leading-relaxed mb-4 text-[11px]">
+                        <p class="text-white font-bold mb-1">【お問い合わせ / CONTACT】</p>
+                        <p>TEL: +81 052-414-7675</p>
+                        <p>Email: <a href="mailto:t_kimura@equal21.co.jp" class="hover:underline">t_kimura@equal21.co.jp</a></p>
+                    </div>
+                </div>
+                <div class="w-1/3 px-4">
+                    <a href="#" class="bg-[#5cb1c6] text-white font-bold py-2 px-6 mb-4 text-center hover:opacity-90 transition shadow-sm w-[240px] block">
+                        お問い合わせ・見積依頼
+                    </a>
+                    <div class="leading-relaxed mt-4 font-bold text-white text-[13px]">
+                        <p>営業時間：9:00〜18:00 (土日祝を除く)</p>
+                        <p>対応エリア：全国発送いたします！</p>
+                    </div>
+                </div>
+                <div class="w-1/3 flex flex-col items-center">
+                    <div class="text-[11px] text-center leading-relaxed">
+                        <p>EQUAL VIET NAM Co., Ltd.</p>
+                        <p>Website: <a href="https://equalvn.com/" target="_blank" class="text-[#5cb1c6] hover:underline">https://equalvn.com/</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center text-[12px]">
+                <p class="text-white font-bold">&copy; EQUAL VIET NAM Co., Ltd.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-white transition">トップページ</a>
+                    <a href="#" class="hover:text-white transition">会社案内</a>
+                    <a href="#" class="hover:text-white transition">採用情報</a>
+                    <a href="#" class="hover:text-white transition">プライバシーポリシー</a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#24272c] py-2 px-4 text-right">
+            <a href="#" class="text-[11px] text-[#aaaaaa] hover:text-white underline transition">ログイン</a>
+        </div>
+        <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="fixed bottom-10 right-4 w-12 h-12 bg-black/80 text-white rounded-full flex flex-col items-center justify-center hover:bg-[#5cb1c6] transition shadow-lg z-50">
+            <svg class="w-4 h-4 mb-[-4px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 15l7-7 7 7"></path></svg>
+            <span class="text-[10px] font-bold mt-1">TOP</span>
+        </a>
+    </footer>
+
+</body>
+</html>
