@@ -1,0 +1,154 @@
+{
+  "color": {
+    "Primary Blue": {
+      "$type": "color",
+      "$value": "#0b6678",
+      "$description": "Header background, primary branding elements"
+    },
+    "Deep Blue": {
+      "$type": "color",
+      "$value": "#004f83",
+      "$description": "Secondary blue elements, darker accents"
+    },
+    "Bright Blue": {
+      "$type": "color",
+      "$value": "#0072bd",
+      "$description": "Links and interactive elements"
+    },
+    "Light Blue": {
+      "$type": "color",
+      "$value": "#45b1c7",
+      "$description": "Highlights and secondary accents"
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "$description": "Main background, content areas"
+    },
+    "Light Gray Background": {
+      "$type": "color",
+      "$value": "#f1f5f4",
+      "$description": "Section backgrounds, subtle areas"
+    },
+    "Black": {
+      "$type": "color",
+      "$value": "#000000",
+      "$description": "Primary text content"
+    },
+    "Dark Gray": {
+      "$type": "color",
+      "$value": "#333333",
+      "$description": "Secondary text, headings"
+    },
+    "Medium Gray": {
+      "$type": "color",
+      "$value": "#393939",
+      "$description": "Body text, descriptions"
+    },
+    "Light Gray": {
+      "$type": "color",
+      "$value": "#a9a9a9",
+      "$description": "Borders, dividers, subtle elements"
+    }
+  },
+  "typography": {
+    "Body Text": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": "normal",
+        "letterSpacing": "normal"
+      },
+      "$description": "Primary body text and general content"
+    },
+    "Small Text": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": "19.2px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Small text, captions, and secondary information"
+    },
+    "Medium Text": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": "20px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Medium-sized content, navigation items"
+    },
+    "Large Heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "28px",
+        "fontWeight": 500,
+        "lineHeight": "normal",
+        "letterSpacing": "normal"
+      },
+      "$description": "Main headings and prominent text"
+    },
+    "Subheading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "18px",
+        "fontWeight": 500,
+        "lineHeight": "22.5px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Section headings and subheadings"
+    },
+    "Bold Text": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Meiryo",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": "17.5px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Emphasized text and important information"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$type": "dimension",
+      "$value": "5px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "10px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "15px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "30px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "40px"
+    }
+  },
+  "borderRadius": {
+    "rounded": {
+      "$type": "dimension",
+      "$value": "30px"
+    }
+  }
+}

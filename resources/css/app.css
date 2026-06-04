@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+  /* Theme Colors */
+  --color-primary-blue: #0b6678;
+  --color-bright-blue: #0072bd;
+  --color-deep-blue: #004f83;
+  --color-light-blue: #45b1c7;
+  --color-white: #ffffff;
+  --color-light-gray-background: #f1f5f4;
+  --color-black: #000000;
+  --color-dark-gray: #333333;
+  --color-medium-gray: #393939;
+  --color-light-gray: #a9a9a9;
+
+  /* UI Element Colors */
+  --color-cta-green: #5da531;
+  --color-cta-light-green: #87d554;
+  --color-cta-hover-light: #92e25d;
+  --color-cta-hover-dark: #68b837;
+  --color-warning-bg: #fdfaf3;
+  --color-warning-border: #d1c8b3;
+  --color-warning-inner-bg: #fff8e1;
+  --color-warning-inner-border: #f0dfaa;
+  --color-warning-text: #e68a00;
+  --color-teal-button: #3eb6ca;
+  --color-teal-text: #218da6;
+  --color-teal-dark: #2a7b8e;
+  --color-gray-blue-bg: #e9ecec;
+  --color-gray-box: #f1f1f1;
+  --color-arrow-gray: #444444;
+
+  /* Spacing */
+  --spacing-xs: 5px;
+  --spacing-sm: 10px;
+  --spacing-md: 15px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --spacing-2xl: 40px;
+
+  /* Border Radius */
+  --radius-rounded: 30px;
+
+  /* Fonts */
+  --font-meiryo: "Meiryo", sans-serif;
+}
