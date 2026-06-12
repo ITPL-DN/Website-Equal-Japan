@@ -2,10 +2,10 @@
   "version": 2,
   "buildCommand": "",
   "outputDirectory": "public",
+  "cleanUrls": true,
   "routes": [
     {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
+      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
